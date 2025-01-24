@@ -6,14 +6,14 @@
  */
 $host = 'localhost';
 $dbname = 'travel_bucket_list';
-$username = 'root'; // Use your MySQL username
-$password = ''; // Use your MySQL password
+$username = 'root'; 
+$password = ''; 
 
-// Connect to the database
+
 $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-// Fetch all places
+
 $query = $conn->query('SELECT * FROM places');
 $places = $query->fetchAll();
 ?>
