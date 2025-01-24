@@ -5,15 +5,14 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
 /* 
     Created on : Dec 27, 2024, 7:58:22 PM
     Author     : kathlien
-*/
-/* Set up a beautiful sky-like color scheme */
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #87CEEB; /* Sky blue color */
+    background-color: #87CEEB;
     color: #333;
     margin: 0;
     padding: 20px;
-    background-image: url('https://www.example.com/sky-image.jpg'); /* Add a sky or cloud image here */
+    background-image: url('https://www.example.com/sky-image.jpg'); 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -21,12 +20,11 @@ body {
 
 h1 {
     text-align: center;
-    color: #ffffff; /* White text for the heading */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Slight shadow to make the heading stand out */
-}
+    color: #ffffff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 
 a {
-    color: #1E90FF; /* Light blue color for links */
+    color: #1E90FF; 
     text-decoration: none;
     padding: 10px;
     display: inline-block;
@@ -34,7 +32,7 @@ a {
 }
 
 a:hover {
-    color: #FFD700; /* Gold color on hover */
+    color: #FFD700; 
     text-decoration: underline;
 }
 
@@ -54,18 +52,18 @@ th, td {
 }
 
 th {
-    background-color: rgba(255, 255, 255, 0.8); /* Light background for table headers */
-    color: #1E90FF; /* Blue color for headers */
+    background-color: rgba(255, 255, 255, 0.8); 
+    color: #1E90FF; 
 }
 
 tr:nth-child(even) {
-    background-color: rgba(255, 255, 255, 0.6); /* Slightly different color for even rows */
+    background-color: rgba(255, 255, 255, 0.6); 
 }
 
 form {
     max-width: 500px;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    background-color: rgba(255, 255, 255, 0.9); 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -86,7 +84,7 @@ input, textarea {
 }
 
 input[type="submit"] {
-    background-color: #1E90FF; /* Blue button */
+    background-color: #1E90FF;
     color: white;
     border: none;
     cursor: pointer;
@@ -95,7 +93,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #4682B4; /* Darker blue on hover */
+    background-color: #4682B4; 
 }
 
 input[type="checkbox"] {
